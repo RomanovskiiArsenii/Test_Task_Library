@@ -68,7 +68,7 @@ public sealed class Triangle : Shape
     /// <summary>
     /// Determines whether the triangle is a right triangle
     /// </summary>
-    /// <returns>true if the triangle is right, false overwise</returns>
+    /// <returns>true if the triangle is right</returns>
     public bool IsTriangleRight()
     {
         var sides = new[] { _sideA, _sideB, _sideC };
