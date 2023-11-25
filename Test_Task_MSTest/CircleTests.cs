@@ -25,7 +25,7 @@ public class CircleTests
         Shape circle = new Circle(1000000000);
         double actual = circle.CalculateArea();
         double expected = 3141592653589793238.46264;
-        Assert.AreEqual(expected, actual, 1e-9);
+        Assert.AreEqual(expected, actual, Constants.Epsilon);
         Debug.WriteLine($"Expected: {expected}");
         Debug.WriteLine($"Actual:   {actual}");
     }
@@ -36,7 +36,7 @@ public class CircleTests
         Shape circle = new Circle(1);
         double actual = circle.CalculateArea();
         double expected = 3.1415926535897932384626433832795;
-        Assert.AreEqual(expected, actual, 1e-9);
+        Assert.AreEqual(expected, actual, Constants.Epsilon);
         Debug.WriteLine($"Expected: {expected}");
         Debug.WriteLine($"Actual:   {actual}");
     }

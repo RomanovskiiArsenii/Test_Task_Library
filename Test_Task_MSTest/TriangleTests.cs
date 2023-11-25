@@ -81,7 +81,7 @@ public class TriangleTests
         Triangle triangle = new Triangle(10, 10, 10);
         double actual = triangle.CalculateArea();
         double expected = 43.301270189221932338186158537647;
-        Assert.AreEqual(actual, expected, 0.0000000001);
+        Assert.AreEqual(actual, expected, Constants.Epsilon);
         Debug.WriteLine($"Expected: {expected}");
         Debug.WriteLine($"Actual:   {actual}");
     }
@@ -92,7 +92,7 @@ public class TriangleTests
         Triangle triangle = new Triangle(0.1, 0.1, 0.1);
         double actual = triangle.CalculateArea();
         double expected = 0.00433012701892219323381861585376;
-        Assert.AreEqual(actual, expected, 0.0000000001);
+        Assert.AreEqual(actual, expected, Constants.Epsilon);
         Debug.WriteLine($"Expected: {expected}");
         Debug.WriteLine($"Actual:   {actual}");
     }

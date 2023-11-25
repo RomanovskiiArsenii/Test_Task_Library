@@ -25,7 +25,7 @@ public class EllipseTests
         Shape ellipse = new Ellipse(1000000000, 2000000000);
         double actual = ellipse.CalculateArea();
         double expected = 6283185307179586476.925286766559;
-        Assert.AreEqual(expected, actual, 1e-9);
+        Assert.AreEqual(expected, actual, Constants.Epsilon);
         Debug.WriteLine($"Expected: {expected}");
         Debug.WriteLine($"Actual:   {actual}");
     }
@@ -36,7 +36,7 @@ public class EllipseTests
         Shape ellipse = new Ellipse(1, 2);
         double actual = ellipse.CalculateArea();
         double expected = 6.283185307179586476925286766559;
-        Assert.AreEqual(expected, actual, 1e-9);
+        Assert.AreEqual(expected, actual, Constants.Epsilon);
         Debug.WriteLine($"Expected: {expected}");
         Debug.WriteLine($"Actual:   {actual}");
     }
