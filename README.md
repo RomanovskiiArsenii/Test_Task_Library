@@ -2,7 +2,9 @@
 
 Так как в описании к вакансии было требование предоставить веб-проект, я опубликовал на GitHub небольшой сайт, дублирующий мое резюме. 
 Ознакомиться можно здесь:  
+
 https://romanovskiiarsenii.github.io/cv/
+
 https://github.com/RomanovskiiArsenii/cv
 
 Задание1:
